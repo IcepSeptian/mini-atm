@@ -1,0 +1,23 @@
+{
+    "yuga": {
+        "password": "132",
+        "saldo": 10000
+    },
+    "gara": {
+        "password": "123",
+        "saldo": 2000.0
+    },
+    "qwe": {
+        "password": "123",
+        "saldo": 10000,
+        "ket": "pengguna baru"
+    },
+    "yugarnprj": {
+        "password": "354389202",
+        "saldo": 10000
+    },
+    "wertyui": {
+        "password": "1234",
+        "saldo": 30000.0
+    }
+}
