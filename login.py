@@ -19,7 +19,7 @@ def baca_database():
 def transfer(from_username):
     # Load the account data from the database.json file
     with open('database.json', 'r') as file:
-        username = json.load(file)
+        akun = json.load(file)
 
     global database
     to_username =  input("Masukkan username tujuan: ")
@@ -33,7 +33,7 @@ def transfer(from_username):
         print("Error: Saldo anda tidak mencukupi.")
         return
     
-    destination_balance = database[to_username]['saldo']
+    saldo_tujuan = database[to_username]['saldo']
     database[from_username]['saldo'] -= nominal
     database[to_username]['saldo'] += nominal
     
@@ -43,10 +43,6 @@ def transfer(from_username):
     
     print("Transfer sukses!")
 
-
-
-    
-    
 def create_account():
     global database
     print("Selamat datang! Silakan buat akun baru.")
@@ -93,7 +89,6 @@ def login():
         print("Anda telah melebihi batas percobaan login. proses dibatalkan.")
     
     database = baca_database()
-    print("Selamat datang di mini ATM, Silahkan pilih login atau buat akun baru.")
     print("1. Transfer")
     print("2. Buat akun baru")
     print("3. keluar")
