@@ -1,23 +1,47 @@
 {
     "yuga": {
-        "password": "132",
-        "saldo": 10000
+        "password": "13256",
+        "saldo": 130000,
+        "riwayat_transaksi": {
+            "tanggal": "2023-11-24 17:00:50",
+            "tipe": "transfer",
+            "nominal": -2000
+        }
     },
-    "gara": {
-        "password": "123",
-        "saldo": 2000.0
+    "alya": {
+        "password": "123234",
+        "saldo": 340000,
+        "riwayat_transaksi": {
+            "tanggal": "2023-11-24 12:55:05",
+            "tipe": "transfer",
+            "nominal": -2000
+        }
     },
-    "qwe": {
-        "password": "123",
-        "saldo": 10000,
-        "ket": "pengguna baru"
+    "hesya": {
+        "password": "12323",
+        "saldo": 750000,
+        "riwayat_transaksi": {
+            "tanggal": "2023-12-04 09:45:37",
+            "tipe": "transfer",
+            "nominal": -50000
+        }
     },
-    "yugarnprj": {
-        "password": "354389202",
-        "saldo": 10000
+    "icep": {
+        "password": "12453",
+        "saldo": 200000,
+        "riwayat_transaksi": {
+            "tanggal": "2023-12-04 08:41:56",
+            "tipe": "transfer",
+            "nominal": -20000
+        }
     },
-    "wertyui": {
-        "password": "1234",
-        "saldo": 30000.0
+    "alwi": {
+        "password": "154632",
+        "saldo": 350000,
+        "riwayat_transaksi": {
+            "tanggal": "Tarik saldo",
+            "tipe": -100000,
+            "nominal": "2023-12-03 18:41:13"
+        }
     }
 }
